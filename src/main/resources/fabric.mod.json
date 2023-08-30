@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmct",
+	"version": "${version} - 1.20.1",
+	"name": "More Crafting Tables",
+	"description": "Adding the rest of the Crafting Table variants into the game! - - !!THIS IS NOT MY ORIGINAL MOD!!\nThis is a Port of 'Oh, How the Crafting Has Tabled!' to newer Minecraft Versions, check out theirs for 1.15-1.16.5 https://www.curseforge.com/minecraft/mc-mods/oh-how-the-crafting-has-tabled\n\nP3NG00 is the Original creator of the mod (I love your mod btw), I have simply just ported it",
+	"authors": [
+		"LieOnLion",
+		"P3NG00"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/more-crafting-tables-lieonlion",
+		"sources": "https://github.com/LieOnLion/More-Crafting-Tables",
+		"issues": "https://github.com/LieOnLion/More-Crafting-Tables/issues"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.lieonlion.lolmct.MoreCraftingTablesMain"
+		]
+	},
+	"mixins": [
+		"lolmct.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
