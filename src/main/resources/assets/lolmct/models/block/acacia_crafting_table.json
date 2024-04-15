@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "lolmct:block/acacia_crafting_table_front",
+    "up": "lolmct:block/acacia_crafting_table_top",
+    "down": "minecraft:block/acacia_planks",
+    "north": "lolmct:block/acacia_crafting_table_front",
+    "south": "lolmct:block/acacia_crafting_table_side",
+    "west": "lolmct:block/acacia_crafting_table_front",
+    "east": "lolmct:block/acacia_crafting_table_side"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.lieonlion.lolmct.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "lolmct.refmap.json",
+  "mixins": [
+    "CraftingMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
