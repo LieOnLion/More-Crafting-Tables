@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "lolmct:block/birch_crafting_table_front",
+    "up": "lolmct:block/birch_crafting_table_top",
+    "down": "minecraft:block/birch_planks",
+    "north": "lolmct:block/birch_crafting_table_front",
+    "south": "lolmct:block/birch_crafting_table_side",
+    "west": "lolmct:block/birch_crafting_table_front",
+    "east": "lolmct:block/birch_crafting_table_side"
+  }
+}
