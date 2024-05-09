@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_table",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "lolmct:birch_crafting_table"
+  }
+}
