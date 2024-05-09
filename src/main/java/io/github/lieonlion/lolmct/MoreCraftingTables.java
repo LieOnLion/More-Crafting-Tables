@@ -10,7 +10,6 @@ public class MoreCraftingTables {
     public static final String MODID = "lolmct";
 
     public MoreCraftingTables(IEventBus modBus) {
-
         MctBlockInit.registerBlocks(modBus);
         MctItemInit.registerItems(modBus);
 

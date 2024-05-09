@@ -9,30 +9,29 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 description='''${mod_description}'''
 logoFile="logo.png"
-logoBlur=false
 displayURL="https://lieonlion.github.io/LieOnLion/"
 issueTrackerURL="https://github.com/LieOnLion/More-Crafting-Tables/issues"
 
 [[mixins]]
-config="${mod_id}.mixins.json"
+    config="${mod_id}.mixins.json"
 
 [[dependencies.${mod_id}]]
     modId="neoforge"
     type="required"
     versionRange="${neo_version_range}"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="minecraft"
     type="required"
     versionRange="${minecraft_version_range}"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="quad"
     type="required"
     versionRange="${quad_version}"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
