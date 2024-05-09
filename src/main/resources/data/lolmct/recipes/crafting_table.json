@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "lolmct:more_table"
+      "tag": "lieonstudio:crafting_tables"
     }
   ],
   "result": {
