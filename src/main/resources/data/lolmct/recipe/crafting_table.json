@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "lieonstudio:crafting_tables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:crafting_table"
+  }
+}

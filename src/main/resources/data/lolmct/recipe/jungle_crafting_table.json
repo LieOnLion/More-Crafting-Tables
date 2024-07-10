@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_table",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "lolmct:jungle_crafting_table"
+  }
+}
